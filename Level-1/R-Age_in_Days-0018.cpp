@@ -1,0 +1,15 @@
+  #include <iostream>
+    #include<iomanip>
+    using namespace std;   
+ 
+ 
+    int main() {
+    
+        int n ; cin >> n  ; 
+        
+        cout<<n/365<<"years"<<endl;
+        n=n%365;
+        cout<<n/30<<"months"<<endl;
+        cout<<n%30<<"days";
+        
+    }
