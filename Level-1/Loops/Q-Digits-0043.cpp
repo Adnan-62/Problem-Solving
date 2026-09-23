@@ -8,11 +8,14 @@ int main(){
  while(x--){
     int n ; 
     cin>>n;
-   do{
+    if(n==0){
+        cout<<0;
+    }else
+   while(n!=0){
 
     cout<<n%10<<" ";
     n/=10;
-   }while(x!=0);
+   }
 
    cout<<endl;
 }
