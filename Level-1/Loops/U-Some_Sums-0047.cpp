@@ -5,10 +5,6 @@ int main(){
 int n , a , b ; 
 cin>>n>>a>>b;
 long long sum = 0 ; 
-/*for (int i = min(a,b); i<= max(a,b ) ; i++){
-    sum+=i;
-   
-}*/
 for (int i = 1 ; i<=n ; i++){
     int s = 0 , x=i , flag= 0 ;
     while(x!=0){
