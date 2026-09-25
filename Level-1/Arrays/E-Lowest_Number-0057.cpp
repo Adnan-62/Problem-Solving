@@ -19,5 +19,6 @@ for(int i = 0 ; i<n ; i++){
         pos=i;
     }
 }
-cout<<min<<" "<<pos+1;
+pos++;
+cout<<min<<" "<<pos;
 }
