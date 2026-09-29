@@ -4,7 +4,7 @@ using namespace std;
  
  
 int main() {
-int t  , M ; cin>>t; 
+short t   ; cin>>t; 
 while(t--){
 
     int n ; 
@@ -12,28 +12,15 @@ while(t--){
     int arr[n];
     for(int i =0 ; i<n ; i++){
         cin>>arr[i];
-        cout<<arr[i]<<" ";
     }
-    if(n<2)
-    break;
-    int j = 0  , c=j+2; 
-    while(j<=n-1){
-
-    while(c<=n){
-     for(int i = j ; i<c ; i++){
-        if(i==j){
-            M=arr[i];
+    for(int i = 0 ; i<n ; i++){
+        int m = INT_MIN;
+        for(int j= i ; j<n ; j++){
+            m=max(arr[j], m);
+            cout<<m<<" ";
         }
-        if(arr[i]>M){
-            M=arr[i];
-        }
-    }   
-    c++;
-    cout<<M<<" ";
+       
     }
-  j++;
-  c=j+2;  
-}
 cout<<endl;
 }
 }
