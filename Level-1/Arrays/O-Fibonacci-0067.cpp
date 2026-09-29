@@ -4,20 +4,15 @@ using namespace std;
  
 int main() {
 int n ; cin>>n ; 
-int f1 = 0 , f2 =1 , t  ; 
-if(n==1){
-    cout<<0;
-}else if(n==2)
-cout<<1;
-else{
-   for(int i = 2 ; i<n ; i++){
-    t=f2;
-    f2 = f1+f2;
-    
-    f1=t;
-} 
-cout<<f2;
+long long fb[n];
+fb[0]=0;
+fb[1]=1;
+for(int i = 2 ;i<n ; i++){
+    fb[i]=fb[i-2]+fb[i-1];
 }
+cout<<fb[n-1];
+  
+
 
 
 }
