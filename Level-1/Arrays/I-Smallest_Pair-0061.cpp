@@ -5,10 +5,10 @@ using namespace std;
  
 int main() {
     
- int t, n , min ;cin>>t;
+ long long  t, n , min ;cin>>t;
  while(t--){
  cin>>n;
- int arr[n] ;
+ long long  arr[n] ;
 for(int i = 1 ; i<=n ; i++){
     cin>>arr[i]; 
 }
@@ -22,6 +22,6 @@ for(int i = 1 ; i<=n ; i++){
         }
     }
 }
-cout<<min;
+ cout<<min<<endl;
  }
 }
