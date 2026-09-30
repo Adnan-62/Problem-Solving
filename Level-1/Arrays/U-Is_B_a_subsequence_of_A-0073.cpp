@@ -15,24 +15,21 @@ for(int i = 0 ; i<m ;i++){
 }
 
 bool F = true ; 
-int jj=0;
-for(int i = 0 ; i<m ; i++){
-    if(jj>=n){
+int index = 0 ; 
+for(int i=0 ; i<n ; i++){
+    if(index == m )
+    break;
+    if(a[i]==b[index]){  
+        index++;
+    }else if(i==n-1){
         F=false;
         break;
     }
-    for(int j = jj ; j<n ; j++){    
-        if(a[j]==b[i]){
-            jj=j+1;
-            break;
-        }else if(j==n-1){
-            jj=j+1;
-            F=false;
-            break;
-        }
-
-    }
+    
 }
+if(index <m){
+    cout<<"NO";
+}else
 if(F){
     cout<<"YES";
 }
