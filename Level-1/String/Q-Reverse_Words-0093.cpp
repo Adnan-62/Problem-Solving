@@ -4,7 +4,7 @@ using namespace std;
  
 int main()
 {
-	std::ios_base::sync_with_stdio(0);cin.tie(NULL);
+	std::ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(nullptr);
 	
     string s ;
 		getline(cin, s);
