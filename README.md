@@ -5,7 +5,7 @@ Welcome! This repository tracks my step-by-step progress, and code solutions as 
 
 ## 🛠️ Languages & Platforms
 * **Primary Language:** C++ 
-* **Platforms Used:** **[Codeforces]
+* **Platforms Used:** [Codeforces]
   * My Account on Codeforces -> (https://codeforces.com/profile/EggHead_62) .
   
 
