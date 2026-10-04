@@ -6,13 +6,16 @@ using namespace std;
 void Solve(){
     ll n ; cin>>n;
     bool f = false; 
-    for(int i = 2 ; i<=n/2 ; i++){
+    
+    
+    for(int i = 2 ; i<=sqrt(n) ; i++){
         if(n%i==0){
             f = true;
             break;
         }
+       
     }
-    if(f){
+    if(f || n<2){
         cout<<"NO"<<endl;
     }else cout<<"YES"<<endl;
 
