@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long 
-#define fast() std::ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(nullptr)
+#define fast std::ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(nullptr)
 
 bool comp(pair<int , int >&a , pair<int , int > &b){
     if(a.second>b.second){
@@ -9,8 +9,8 @@ bool comp(pair<int , int >&a , pair<int , int > &b){
 
     }else 
     return false ; 
-}
 
+}
 
 void solve(){
    
@@ -29,10 +29,9 @@ for(int i = 0 ; i<n ; i++){
 	
 }
 
-
 int main()
 {
-	fast();
+	fast;
    int T= 1 ;
    //cin>>T;
    while(T--){
