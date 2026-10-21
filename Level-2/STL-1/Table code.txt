@@ -13,7 +13,7 @@ void Solve(){
 int main()
 {
 	fast();
-   int T= 1 ;
+   int T = 1 ;
    //cin>>T;
    while(T--){
 	
