@@ -13,7 +13,7 @@ void Solve(){
     cin>>a[i];
    }
    sort(a.begin() , a.end());
-   vector<ll>b;
+   vector<ll>b; 
    cout<<a[0]<<' ';
    for(int i = 1 ; i<n ; i++){
 
