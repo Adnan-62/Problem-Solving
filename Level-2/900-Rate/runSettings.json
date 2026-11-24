@@ -1,0 +1,14 @@
+{
+  ".CPP": {
+    "runCommand": [
+      "TODO"
+    ],
+    "compileCommand": [
+      "TODO! REMOVE IF NOT NEEDED"
+    ],
+    "debugCommand": [
+      "TODO! (Optional) Command to start debug server on ${debugPort}"
+    ],
+    "debugAttachConfig": "TODO! (Optional) Name of launch.json attach configuration"
+  }
+}
